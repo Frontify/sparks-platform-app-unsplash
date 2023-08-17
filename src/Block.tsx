@@ -1,8 +1,7 @@
 import type {FC} from 'react';
 import {Title, Form, GridResults} from './components';
 import {useFormQuery} from "./hooks";
-
-import {QueryClient, QueryClientProvider} from '@tanstack/react-query'
+import {QueryClient, QueryClientProvider} from '@tanstack/react-query';
 
 const queryClient = new QueryClient()
 

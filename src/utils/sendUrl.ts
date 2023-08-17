@@ -1,7 +1,6 @@
 import axios from "axios";
 
 export function sendUrl(url: string, format: string|null, description: string|null) {
-    console.log(url)
     axios.post("https://19b11ef8-46cd-46c0-bc26-3a9b264b290f.trayapp.io/",
         {
             "url": url,

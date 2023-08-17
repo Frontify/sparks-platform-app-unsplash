@@ -8,6 +8,9 @@ export interface Result {
     alt_description: null | string;
     urls: Urls;
     likes: number;
+    user: {
+        username:string,
+    }
 }
 
 export interface Urls {
